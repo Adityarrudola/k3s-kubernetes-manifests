@@ -6,8 +6,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
 spec:
   rules:
-    - host: sample.local
-      http:
+    - http:
         paths:
           - path: /
             pathType: Prefix
