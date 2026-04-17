@@ -14,3 +14,5 @@ def call(cfg) {
       .
     """
 }
+
+return this

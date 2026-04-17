@@ -19,3 +19,5 @@ def call(cfg) {
     kubectl get pods -o wide
     """
 }
+
+return this

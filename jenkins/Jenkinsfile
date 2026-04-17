@@ -19,7 +19,7 @@ pipeline {
             steps {
                 script {
                     def cfgLoader = load "jenkins/functions/config.groovy"
-                    cfg = cfgLoader() 
+                    cfg = cfgLoader()
                 }
             }
         }
